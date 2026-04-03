@@ -1,0 +1,1 @@
+find . \( -name '#*#' -o -name '*~' \) -type f -printf '%f\n' -exec rm {} +
